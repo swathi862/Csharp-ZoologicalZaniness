@@ -5,6 +5,6 @@ namespace zoological_zaniness{
 
     public class Aquarium{
 
-        public List<IWaterAnimal> waterAnimals {get; set;}
+        public List<IWaterAnimal> waterAnimals {get; set;} = new List<IWaterAnimal>();
     }
 }
